@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container vstack shadow gap-2 justify-content-center min-vh-100">
+        <input  type="text" class="form-control" placeholder="name" id="uName">
+        <input  type="tel" class="form-control" placeholder="tel" id="uTel">
+        <button onclick="addContactData()" class="btn btn-primary" id="addContact">Add</button>
+        
+        
+        <table class="table">
+            <thead class="table-primary">
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Number</th>
+                <th scope="col">Time</th>
+                <th scope="col">Remove</th>
+                
+                
+              </tr>
+            </thead>
+            <tbody id="tBody">
+             
+              
+           
+            </tbody>
+          </table>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
